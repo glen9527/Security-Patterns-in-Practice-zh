@@ -1,6 +1,6 @@
 # 第 5 章 身份验证模式
-CHAPTER 5
-Patterns for Authentication
+> CHAPTER 5 Patterns for Authentication
+
 This above all; to thine own self be true, and it must follow, as the night the day, thou canst not then be false to any man.
 
 William Shakespeare, ‘Hamlet’

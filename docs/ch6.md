@@ -1,6 +1,6 @@
 # 第 6 章 访问控制模式
-CHAPTER 6
-Patterns for Access Control
+> CHAPTER 6 Patterns for Access Control
+
 With the Berlin (defense) I was able to set up a fortress that he could come near but not breach.
 
 Vladimir Kramnik (ex-world chess champion)

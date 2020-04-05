@@ -1,5 +1,4 @@
-# 前言
-Preface
+# Preface
 
 El que lee mucho y anda mucho, ve mucho y sabe mucho.
 
@@ -23,10 +22,12 @@ Because I work in a university, I have been accused a few times of not being ‘
 
 I would greatly appreciate comments or corrections. These patterns encompass all areas of computer systems architecture, and I am sure I may have misunderstood some aspects. I am also particularly interested to hear of any interesting use of security patterns in industrial projects. Write to me at ed@cse.fau.edu. Markus Schumacher and I will publish comments on patterns at securitypatterns.org.
 
-BOOK STRUCTURE
+## BOOK STRUCTURE
+
 The book is divided into three parts. The first three chapters describe motivation, experience in using patterns, the objectives of the book, and present my secure development methodology. Part II is a pattern catalog, including patterns for different architectural levels of a computer system. Part III shows some examples of application of the patterns, has tables of patterns, and indicates possible research directions.
 
-ACKNOWLEDGEMENTS
+## ACKNOWLEDGEMENTS
+
 This work is the result of my work on security over many years, attending security and patterns conferences, listening and talking to many colleagues around the world, all of whom contributed to this work. More specifically, my students, in particular Nelly Delessy, Keiko Hashizume, Ola Ajaj, Juan C. Pelaez and Ajoy Kumar, wrote several versions of these patterns. My colleagues Maria M. Larrondo-Petrie and Mike Van Hilst collaborated in some of the published patterns. My international collaborators included Nobukazu Yoshioka and Hironori Washizaki (Japan), Günther Pernul (Germany), David LaRed (Argentina), Anton Uzunov (Australia), Fabricio Braz (Brazil), Jaime Muñoz Arteaga (Mexico) and Antonio Maña (Spain).
 
 The shepherds and workshop participants in the Pattern Languages conferences (PLoP, EuroPLoP, Asian PLoP and Latin American PLoP) gave valuable comments, in particular Joe Yoder, Fabio Kon, Richard Gabriel, Rosana Braga, Ralph Johnson, Lior Schachter, and others. Craig Heath commented on the first three chapters.

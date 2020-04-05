@@ -1,6 +1,6 @@
 # 第 4 章 身份管理模式
-CHAPTER 4
-Patterns for Identity Management
+> CHAPTER 4 Patterns for Identity Management
+
 He allowed himself to be swayed by his conviction that human beings are not born once and for all on the day their mothers give birth to them, but that life obliges them over and over again to give birth to themselves.
 
 Gabriel García Márquez, ‘Love in the Time of Cholera’

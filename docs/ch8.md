@@ -1,6 +1,6 @@
 # 第 8 章 用于安全执行和文件管理的模式
-CHAPTER 8
-Patterns for Secure Execution and File Management
+> CHAPTER 8 Patterns for Secure Execution and File Management
+
 The severity of the laws prevents their execution.
 
 Charles de Montesquieu

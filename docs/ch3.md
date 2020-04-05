@@ -1,11 +1,10 @@
 # 第 3 章 安全的系统开发方法
-CHAPTER 3
-A Secure Systems Development Methodology
+> CHAPTER 3 A Secure Systems Development Methodology
 By three methods we may learn wisdom: first, by reflection, which is noblest; second, by imitation, which is easiest; and third by experience, which is the bitterest.
 
 Confucius
 
-3.1 Adding Information to Patterns
+## 3.1 Adding Information to Patterns
 A big problem for designers is to know where to apply the patterns. For an expert on security this aspect should not be a problem, but for a designer with little experience of security it can be a daunting task. Guiding the designer in the selection of patterns along the development lifecycle is very important in getting patterns accepted and used by developers.
 
 As a possible approach to simplifying the use of patterns by designers, we can define extended patterns that include more information about their use:
@@ -19,7 +18,7 @@ Another approach is to define a complete methodology that guides the designer at
  All the layers of the architecture must be secure.
 These principles fit well with the ‘security context’, defined in [Sch03], a set of lifecycle phases and hierarchical layers.
 
-3.2 A Lifecyle-Based Methodology
+## 3.2 A Lifecyle-Based Methodology
 There is already consensus that security must be applied throughout the complete lifecycle: adding security at the end of the development lifecycle has been shown to be insufficient. This means that every methodology for building secure systems, using patterns or not, must consider all stages of the lifecycle. We understand the lifecycle to encompass the use of the platform, not just the application levels. Security depends on all levels and must be considered from the beginning. Our use of patterns is guided by these principles. We can define patterns at all levels, which allows a designer to ensure that all levels are secured, and also makes propagating high-level constraints to lower levels easier.
 
 A better approach is extending a development process to incorporate security in all the stages of the lifecycle: this makes it more acceptable to practitioners. The most common lifecycle process approaches are the Rational Unified Process (RUP) and Agile methodologies [Bra 10]. Both have several variants. We use the standard RUP as the basis for our approach.
@@ -49,7 +48,7 @@ Figure 3.2: Typical attacks to the layers of a system
  Deployment and maintenance stages. Our methodology does not yet address issues in these stages. When the software is in use other security problems may be discovered by users. These problems can be handled by patching, although the amount of patching after applying our approach should be significantly smaller compared to current systems.
 If necessary security constraints can be made more precise by using Object Constraint Language (OCL) [War03a] in place of textual constraints. Patterns for security models define the highest level of the architecture. At each lower level we apply the model patterns to specific mechanisms that enforce these models. In this way we can define patterns for file systems, web documents, J2EE components and so on. We can also evaluate new or existing systems using patterns. If a system doesn’t contain an embodiment of a correct pattern, it cannot support the corresponding secure model or mechanism.
 
-3.3 Using Model-Driven Engineering
+## 3.3 Using Model-Driven Engineering
 Metamodels describe sets of related concepts that are instantiated together (maybe partially) as part of a methodology or procedure to design a system. The UML class diagrams that describe the solutions of patterns are metamodels that are instantiated to apply security, reliability or some other property to the functional aspects of an application. Metamodels are useful for understanding the security design process and in the implementation of model-driven engineering (MDE) approaches. Alternatives or complements could be the use of ontologies: an ontology is a logical theory making precise the intended meaning of a formal vocabulary. Ontologies have been used to organize repositories for security patterns [Dri05].
 
 Figure 3.3 shows a metamodel connecting threats and failures to patterns [Fer11c]. In the diagram, a threat can be neutralized by a security policy. Similarly, a failure can be neutralized by a reliability policy. Policies may also include regulations and institution policies. Security and reliability policies are realized by security and reliability patterns, respectively. A policy realization pattern is a pattern that realizes any type of policy and consists of a few classes and associations. Security and reliability patterns are special cases of policy realization patterns.

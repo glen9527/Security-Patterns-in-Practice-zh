@@ -1,6 +1,6 @@
 # 第 9 章 安全操作系统体系结构和管理的模式
-CHAPTER 9
-Patterns for Secure OS Architecture and Administration
+> CHAPTER 9 Patterns for Secure OS Architecture and Administration
+
 A great building must begin with the immeasurable, must go through measurable means when it is being designed, and in the end must be unmeasured.
 
 Louis Kahn

@@ -1,6 +1,6 @@
 # 第 7 章 用于安全流程管理的模式
-CHAPTER 7
-Patterns for Secure Process Management
+> CHAPTER 7 Patterns for Secure Process Management
+
 Music is given to us with the sole purpose of establishing an order in things, including, and particularly, the coordination between man and time.
 
 Igor Stravinsky
